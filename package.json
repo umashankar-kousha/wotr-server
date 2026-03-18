@@ -1,8 +1,13 @@
 {
-  "dependencies": {
-    "json-server": "^1.0.0-beta.13"
-  },
+  "name": "json-server-online",
+  "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 3001"
+    "start": "json-server --watch db.json --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
