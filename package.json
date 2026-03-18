@@ -2,7 +2,7 @@
   "name": "json-server-online",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port $port"
+    "start": "json-server --watch db.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.3"
